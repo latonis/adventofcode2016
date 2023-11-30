@@ -39,8 +39,6 @@ func solvePartOne(input []string) int {
 
 	for _, line := range input {
 		triangle := strings.Fields(line)
-		// fmt.Println(triangle)
-		// fmt.Println(triangle[0], triangle[1], triangle[2])
 
 		x, _ := strconv.Atoi(triangle[0])
 

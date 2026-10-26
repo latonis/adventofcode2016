@@ -19,10 +19,9 @@ module Days
 
         include("$(current_directory)/$(args[1]).jl")
 
-        # 2. Extract the function object from this module
         solve_func = getfield(Days, :solve)
 
-        # 3. Use Base.invokelatest to run it with the newest world age
+        # Figure out what tf this means
         Base.invokelatest(solve_func, input |> strip)
 
         println("[+] solved day$(args[1]).jl")

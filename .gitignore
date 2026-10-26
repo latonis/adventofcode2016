@@ -32,4 +32,4 @@ JuliaLocalPreferences.toml
 .CondaPkg/
 
 # Input files for AoC 2016
-Input/
+days/input/

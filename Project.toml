@@ -1,0 +1,14 @@
+authors = ["Jacob Latonis"]
+name = "Advent of Code 2016"
+version = "0.1.0"
+uuid = "01a1756b-d253-7799-9e1c-85d016d58036"
+[deps]
+Runner = "01a1756b-f3ec-740b-a7ad-b47968368e69"
+Days = "01a1756c-1895-744f-8b17-d6b4e36d7845"
+
+[workspace]
+projects = ["days", "runner"]
+
+[sources]
+Runner = {path = "runner"}
+Days = {path = "days"}

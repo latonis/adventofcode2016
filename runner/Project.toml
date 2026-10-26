@@ -1,0 +1,8 @@
+name = "Runner"
+uuid = "01a1756b-f3ec-740b-a7ad-b47968368e69"
+
+[deps]
+Days = "01a1756c-1895-744f-8b17-d6b4e36d7845"
+
+[sources]
+Days = {path = "../days"}
